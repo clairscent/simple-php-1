@@ -1,14 +1,9 @@
 <?php
-
-function New() {
-        print "hello world..a";
+function writeMsg() {
+    echo "Hello world!";
 }
-function helloAgain(){
-	Print "hello2";
+function helloAgain() {
+    echo "Hello again!";
 }
-function helloAgainAndAgain(){
-	Print "hello3";
-}
-
-helloWorld();
+writeMsg(); // call the function
 ?>
